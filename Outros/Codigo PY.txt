@@ -1,0 +1,53 @@
+lista.sort()
+print("Lista ordenada: ", lista)
+
+lista.sort(reverse=True)
+print("Lista ordenada em ordem decrescente: ", lista)
+
+LISTAS EM PY ==> LISTA = [VALUE, VALUE...]
+DICIONARIOS ==> DIC = {KEY1:VALUES1, KEY2:VALUE2...}
+TUPLAS == > TUP = ()
+
+
+dic = {1:"", 2:"eh o 2", 3:"eh o 3"}
+print(dic[2])
+
+PARA ACESSAR A POSIÇAO DE UM DICIONARIO UTILIZASSE COLCHETES
+
+dic[3] = "aaaaaaa"
+print(dic)
+
+PARA ADICIONAR UM MAIS UM ELEMENTO NA LISTA EU ANALISEI UMA POSIÇÃO Q NÃO GUARDAVA NADA E BOTEI NELA
+
+FUNÇOES PARA MAPEAMENTO:
+LEN(*DICIONARIO*) = RETORNA O TAMANHO
+*DICIONARIO*.KEYS() = RETORNA AS CHAVES
+*DICIONARIO*.VALUES() = RETORNA OS VALORES
+*DICIONARIO*.ITEMS() = RETORNA AS COMBINAÇOES DE CHAVES E VALORES
+*DICIONARIO*.UPDATE(*DICIONARIO2*) = CONCATENA OS DADOS
+
+=============================================================
+dic3 = {1:"leonardo", 2:"Euzimaria", 4:[5,2]}
+print(dic3[4])
+print(dic3[4][0])  ==> Acessando posição especifica da lista
+
+print(tup[2:])
+RETORNA TODOS OS ELEMENTOS A PARTIR DA POSIÇÃO 2 DA TUPLA
+
+Funcao *tupla*.index(*index*) ==> retorna a posicao do index
+
+tup = (1,2,3,4,4,4,5)
+print(tup.count(6)) CONTA QUNATAS VEZES O ELEMENTO APARECEU NA TUPLA
+
+==========
+lista3 = ["leo",("lindo",21),{"K1":"values1", 9:"values2"}, 18.25]
+print(lista3[2]["K1"])
+
+======================================================================
+frase = 'Cientista de Dados é o profissional mais sexy do século XXI'
+x = 1
+while x<=18:
+	print(frase[x])
+	x=x+1
+
+IMPRIME APENAS OS CARACTERES DO 1 AO 18 
