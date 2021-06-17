@@ -51,4 +51,23 @@ lista = [21,3,4,5,3,2,2,4,2,35,8,65,3,4]
 
 print(list(filter(par,lista))) #RETORNA APENAS OS PARES
 
+#FUNCAO ZIP - UNE CADA ELEMENTO COM CADA ELEMENTO DE DETERMINDAS LISTAS
+
+x = ["a",1,4,6]
+y = [2,54,"b"]
+
+z = list(zip(x,y))
+print(z) #UNE O PRIMEIRO COM PRIMEIRO SEGUNDO COM SEGUNDO...
+
+#FUNCAO ENUMERATE - ENUMERA OS INDICES 
+lista  = [232,43,76,54,43]
+print(list(enumerate(lista)))
+
+#PODESSE USAAR PARA PESQUISAR DETERMINADO INDICE
+for indice , valor in enumerate(lista):
+	if indice ==2:
+		print(valor)
+	else:
+		print("-")
+
 
