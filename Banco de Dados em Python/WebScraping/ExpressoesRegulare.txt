@@ -1,0 +1,13 @@
+n = qualquer caractere
+
+n{6} ira corresponder a exatamente seis caracteres da letra n
+n{2,4} ira corresponder de 2 a 4 caracteres
+n{2,4}? ira corresponder apenas a 2
+[a-z] corresponde a qualquer letra minuscula
+[A-Z]
+[a-zA-Z]
+[0-5][0-9] corresponde aos numeros com dois digitos de 00 a 59
+[(+*)] corresponde a qqualquer um desses caracteres ( + * )
+(...) corresponde a qualquer expressao entre parenteses
+(?P=name)
+(?<=...)
